@@ -22,16 +22,20 @@
         background: red;
         color: white;
     }
+
+    .carousel-inner {
+        margin-top: 4rem;
+    }
 </style>
 
 
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary px-auto">
+    <nav class="navbar navbar-expand-lg bg-light px-auto fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand rounded" href="#">
-                <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/assets/images/logo/honda.svg">
+            <a class="navbar-brand rounded m-" href="#">
+                <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/assets/images/logo/honda.svg" width="250">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -69,7 +73,7 @@
                             aria-expanded="false">
                             After Sales
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu scroll-behavior">
                             <li><a class="dropdown-item text-danger" href="#">Action</a></li>
                             <hr class="dropdown-divider">
                             <li><a class="dropdown-item text-danger" href="#">Another action</a></li>
@@ -88,9 +92,9 @@
 
     <!-- BANNER -->
     <div class="conatiner-banner">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="height: 90vh;">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active ">
                     <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-1400,pr-true,f-auto/uploads/page/banner/home-banner-vario160-1366x573-tr-10012024-043832.jpg"
                         class="d-block w-100" alt="...">
                 </div>
@@ -106,9 +110,9 @@
         </div>
     </div>
 
-    <!-- PRODUCT -->
+    <!-- PRODUCT 1-->
     <div class="container" id="product">
-        <h1 class="text-center py-4">PRODUCT</h1>
+        <h5 class="text-center py-4">PILIH MOTOR UNTUK ANDA</h5>
         <div class="container mt-3">
             <div class="row">
                 <div class="col-lg-6 col-md-6 mb-2 col-sm-12" data-aos="fade-right" data-aos-offset="300"
@@ -127,8 +131,8 @@
                                         <span class="badge bg-warning" id="Matic">Matic</span>
                                     </p>
                                     <div class="btn-group" role="group">
-                                        <button type="button" class="btn  dropdown-toggle"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        <button type="button" class="btn  dropdown-toggle" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
                                             Details
                                         </button>
                                         <ul class="dropdown-menu">
@@ -161,8 +165,8 @@
                                         <span class="badge bg-warning" id="Sport">Sport</span>
                                     </p>
                                     <div class="btn-group" role="group">
-                                        <button type="button" class="btn dropdown-toggle"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
                                             Details
                                         </button>
                                         <ul class="dropdown-menu">
@@ -195,8 +199,8 @@
                                         <span class="badge bg-warning" id="Cub">Cub</span>
                                     </p>
                                     <div class="btn-group" role="group">
-                                        <button type="button" class="btn dropdown-toggle"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
                                             Details
                                         </button>
                                         <ul class="dropdown-menu">
@@ -230,8 +234,8 @@
                                         <span class="badge bg-warning" id="EV">EV</span>
                                     </p>
                                     <div class="btn-group" role="group">
-                                        <button type="button" class="btn dropdown-toggle"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
                                             Details
                                         </button>
                                         <ul class="dropdown-menu">
@@ -252,6 +256,19 @@
         </div>
     </div>
 
+    <!-- penghargaan -->
+    <section>
+        <div class="container">
+            <h5 class="p-5">penghargaan</h5>
+            <div class="penghargaan">
+                <div class="poto-penghargaan">
+                    <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-iatc-01-1-17112023-113900.jpeg"
+                        alt="" width="200">
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, illo?</p>
+            </div>
+        </div>
+    </section>
     <script src="js/bootstrap.bundle.js"></script>
 </body>
 
