@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astra Honda Motor Indonesia</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,7 +35,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-light px-auto fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand rounded m-" href="#">
+            <a class="navbar-brand rounded" href="#">
                 <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/assets/images/logo/honda.svg" width="250">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -50,22 +51,11 @@
                         <a class="nav-link active text-danger" aria-current="page" href="#home">Home</a>
                     </li>
                     <!-- product -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-bs-toggle="dropdown"
+                    <li class="nav-item ">
+                        <a class="nav-link text-danger" href="#product" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            product
+                            Product
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item text-danger" href="#Matic">Matic</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item text-danger" href="#Sport">Sport</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item text-danger" href="#Cub">Cub</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item text-danger" href="#EV">EV</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item text-danger" href="#BigBike">BigBike</a></li>
-                        </ul>
                     </li>
                     <!-- after sales -->
                     <li class="nav-item dropdown">
@@ -110,15 +100,33 @@
         </div>
     </div>
 
-    <!-- PRODUCT 1-->
+    <!-- PRODUCT -->
     <div class="container" id="product">
         <h5 class="text-center py-4">PILIH MOTOR UNTUK ANDA</h5>
+        <div class="slide">
+            <div class="mydict">
+                <div>
+                    <label>
+                        <input type="radio" name="radio" checked="">
+                        <span>Matic</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="radio">
+                        <span>Sport</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="radio">
+                        <span>Cub</span>
+                    </label>
+
+                </div>
+            </div>
+        </div>
         <div class="container mt-3">
             <div class="row">
                 <div class="col-lg-6 col-md-6 mb-2 col-sm-12" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <div class="card">
-                        <div class="card-header text-center">Motor</div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6">
@@ -152,7 +160,6 @@
                 <div class="col-lg-6 col-md-6 mb-2 col-sm-12" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <div class="card">
-                        <div class="card-header text-center">Motor</div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6">
@@ -186,7 +193,6 @@
                 <div class="col-lg-6 col-md-6 mb-2 col-sm-12" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <div class="card">
-                        <div class="card-header text-center">Motor</div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6">
@@ -220,7 +226,6 @@
                 <div class="col-lg-6 col-md-6 mb-2 col-sm-12" data-aos="fade-right" data-aos-offset="300"
                     data-aos-easing="ease-in-sine">
                     <div class="card">
-                        <div class="card-header text-center">Motor</div>
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-md-6">
@@ -257,15 +262,50 @@
     </div>
 
     <!-- penghargaan -->
-    <section>
-        <div class="container">
-            <h5 class="p-5">penghargaan</h5>
-            <div class="penghargaan">
-                <div class="poto-penghargaan">
-                    <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-iatc-01-1-17112023-113900.jpeg"
-                        alt="" width="200">
+    <section class="penghargaan">
+        <h5 class="Awards text-center">Awards</h5>
+        <div class="container-card">
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-iatc-01-1-17112023-113900.jpeg"
+                            alt="">
+                    </div>
+                    <div class="content">
+                        <p class="heading">Awards</p>
+                        <p>
+                            Gelar Sudah Diraih, Pebalap Binaan Astra Honda Fokus Ukir Sejarah dan Rekor di IATC 2023
+                        </p>
+                    </div>
                 </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, illo?</p>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-iatcrace2-01-1-13112023-045622.jpeg"
+                            alt="">
+                    </div>
+                    <div class="content">
+                        <p class="heading">Awards</p>
+                        <p>
+                            Gelar Sudah Diraih, Pebalap Binaan Astra Honda Fokus Ukir Sejarah dan Rekor di IATC 2023
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="front-content">
+                        <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-arrc-01-06112023-054513.jpeg"
+                            alt="">
+                    </div>
+                    <div class="content">
+                        <p class="heading">Awards</p>
+                        <p>
+                            Gelar Sudah Diraih, Pebalap Binaan Astra Honda Fokus Ukir Sejarah dan Rekor di IATC 2023
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
