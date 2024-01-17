@@ -49,6 +49,10 @@ label:first-child span {
 label:last-child span {
     border-radius: 0 .375em .375em 0;
 }
+/* product */
+.card img{
+    transition: 1s ease-in-out;
+}
 
 /* penghargaan */
 .penghargaan {
@@ -86,7 +90,7 @@ label:last-child span {
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
 }
 .front-content img{
-    width: 350px;
+    width: 310px;
 }
 
 .card .front-content p {
