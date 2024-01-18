@@ -7,7 +7,7 @@
 .mydict div {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0.5rem;
+
     justify-content: center;
 }
 
@@ -55,24 +55,15 @@ label:last-child span {
 }
 
 /* penghargaan */
-.penghargaan {
-    padding: 3rem;
-}
 
-.Awards {
+
+.text-awards {
     padding: 1rem;
     font-size: 2rem;
-}
-.container-card{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .card-container {
     display: flex;
-    width: 300px;
-    height: 300px;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -86,16 +77,11 @@ label:last-child span {
 }
 
 .card .front-content {
-    width: 100px;
+   
     transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
-}
-.front-content img{
-    width: 310px;
 }
 
 .card .front-content p {
-    font-size: 32px;
-    font-weight: 700;
     opacity: 1;
     background: linear-gradient(-45deg, #e7e3dd 0%, #ff0f33 100%);
     background-clip: text;
@@ -118,8 +104,7 @@ label:last-child span {
     gap: 10px;
     background: linear-gradient(-45deg, #f3eae0 0%, #e80910 100%);
     color: #000;
-    padding: 20px;
-    line-height: 1.5;
+    font-size: large;
     border-radius: 5px;
     pointer-events: none;
     transform: translateY(96%);
@@ -127,8 +112,6 @@ label:last-child span {
 }
 
 .card .content .heading {
-    font-size: 32px;
-    font-weight: 700;
     color: #fff;
 }
 
@@ -143,7 +126,11 @@ label:last-child span {
 .card:hover .front-content p {
     opacity: 0;
 }
+@media only screen and (max-width: 768px) {
+    .content .more-info{
+        font-size:smaller;
+    }
+}
+@media only screen and (max-width:425px) {
 
-@media screen and (max-width:768px) {
-    
 }

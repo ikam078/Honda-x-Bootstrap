@@ -48,28 +48,19 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-danger" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link active text-danger" href="#home">Home</a>
                     </li>
                     <!-- product -->
-                    <li class="nav-item ">
-                        <a class="nav-link text-danger" href="#product" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#product" role="button">
                             Product
                         </a>
                     </li>
-                    <!-- after sales -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-danger" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            After Sales
+                    <!-- awards -->
+                    <li class="nav-item">
+                        <a class="nav-link text-danger" href="#awards" role="button">
+                            Awards
                         </a>
-                        <ul class="dropdown-menu scroll-behavior">
-                            <li><a class="dropdown-item text-danger" href="#">Action</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item text-danger" href="#">Another action</a></li>
-                            <hr class="dropdown-divider">
-                            <li><a class="dropdown-item text-danger" href="#">Something else here</a></li>
-                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-danger" href="#">More</a>
@@ -82,7 +73,7 @@
 
     <!-- BANNER -->
     <div class="conatiner-banner">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="height: 90vh;">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active ">
                     <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-1400,pr-true,f-auto/uploads/page/banner/home-banner-vario160-1366x573-tr-10012024-043832.jpg"
@@ -101,7 +92,7 @@
     </div>
 
     <!-- PRODUCT -->
-    <div class="container" id="product">
+    <div class="product" id="product">
         <h4 class="text-center py-4 fw-bold">PILIH MOTOR UNTUK ANDA</h4>
         <div class="slide">
             <div class="mydict">
@@ -177,61 +168,81 @@
 
             </div>
         </div>
+    </div>
 
-        <!-- penghargaan -->
-        <section class="penghargaan">
-            <h5 class="Awards text-center fw-bold">Awards</h5>
-            <div class="container-card">
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front-content">
-                            <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-iatc-01-1-17112023-113900.jpeg"
-                                alt="">
-                        </div>
-                        <div class="content">
-                            <p class="heading">17 Nov 2023</p>
-                            <p>
-                                Gelar Sudah Diraih, Pebalap Binaan Astra Honda Fokus Ukir Sejarah dan Rekor di IATC 2023
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front-content">
-                            <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-iatcrace2-01-1-13112023-045622.jpeg"
-                                alt="">
-                        </div>
-                        <div class="content">
-                            <p class="heading">13 Nov 2023</p>
-                            <p>
-                                Pembalap Astra Honda Kembali Cetak Sejarah Rajai Balap Asia
-                            </p>
+    <!-- penghargaan -->
+    <div class="awards" id="awards">
+        <h5 class="text-awards text-center fw-bold">Awards</h5>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="front-content">
+                                <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-iatc-01-1-17112023-113900.jpeg"
+                                    alt="" class="img-fluid">
+                            </div>
+                            <div class="content">
+                                <p class="mt-5 text-white">17 Nov 2023</p>
+                                <p class="more-info">
+                                    Pebalap Binaan Astra Honda Fokus Ukir Sejarah dan Rekor di IATC 2023
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="front-content">
-                            <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-arrc-01-06112023-054513.jpeg"
-                                alt="">
+                <div class="col-md-4">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="front-content">
+                                <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-iatcrace2-01-1-13112023-045622.jpeg"
+                                    alt="" class="img-fluid">
+                            </div>
+                            <div class="content">
+                                <p class="mt-3 text-white">13 Nov 2023</p>
+                                <p class="more-info">
+                                    Pembalap Astra Honda Kembali Cetak Sejarah Rajai Balap Asia
+                                </p>
+                            </div>
                         </div>
-                        <div class="content">
-                            <p class="heading">06 Nov 2023</p>
-                            <p>
-                                CBR250RR Produksi AHM Tak Terbendung Jadi Jawara Asia di ARRC 2023
-                            </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="front-content">
+                                <img src="https://ik.imagekit.io/zlt25mb52fx/ahmcdn/tr:w-550,pr-true/uploads/article/thumbnail/ahm-arrc-01-06112023-054513.jpeg"
+                                    alt="" class="img-fluid">
+                            </div>
+                            <div class="content">
+                                <p class="mt-3 text-white">06 Nov 2023</p>
+                                <p class="more-info">
+                                    CBR250RR Produksi AHM Tak Terbendung Jadi Jawara Asia di ARRC 2023
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
 
-        <!-- footer-->
-        <section class="footer">
-            
-        </section>
-        <script src="js/bootstrap.bundle.js"></script>
+    <!-- footer-->
+    <section class="footer ">
+        <div class="container">
+            <footer class="py-3 my-4">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-danger fw-bold">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-danger fw-bold">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-danger fw-bold">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-danger fw-bold">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-danger fw-bold">About</a></li>
+                </ul>
+                <p class="text-center text-body-secondary">&copy; 2023 Company, Inc</p>
+            </footer>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
