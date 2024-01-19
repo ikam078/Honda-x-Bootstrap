@@ -50,6 +50,9 @@ label:last-child span {
     border-radius: 0 .375em .375em 0;
 }
 /* product */
+.container-text{
+    font-size: 1.5rem;
+}
 .card img{
     transition: 1s ease-in-out;
 }
@@ -130,7 +133,15 @@ label:last-child span {
     .content .more-info{
         font-size:smaller;
     }
+    .container-text{
+        font-size: 1.3rem;
+    }
 }
 @media only screen and (max-width:425px) {
-
+    .container-text{
+        font-size: 1rem;
+    }
+    
+}
+@media only screen and (max-width:375px) {
 }
